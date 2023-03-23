@@ -5,3 +5,5 @@ Copiar `.kube/overlays/local/Deployment.yml.example` en `.kube/overlays/local/De
 Instalar Docker Desktop y activar Kubernetes
 
 Ejecutar: `kubectl apply -k ./kube/overlays/local`
+
+Testear con la URL en el navegador `http://localhost:30080`
